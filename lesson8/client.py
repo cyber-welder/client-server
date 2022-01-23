@@ -36,11 +36,7 @@ def listening(client):
 def main():
     CLIENT_LOG.debug('Программа запущена')
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        'user',
-        type=str,
-        help='Тестово допустимые имена: , user-1, user-2, user-3 и user-4',
-    )
+    parser.add_argument('user', type=str, help='Тестово допустимые имена: , user-1, user-2, user-3 и user-4')
     parser.add_argument('ip_addr', type=ip_address, nargs='?', default='localhost')
     parser.add_argument('port', type=port, nargs='?', default=7777)
     args = parser.parse_args()

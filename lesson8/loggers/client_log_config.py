@@ -10,7 +10,7 @@ STREAM_HANDLER = logging.StreamHandler()
 STREAM_HANDLER.setFormatter(STREAM_FORMAT)
 STREAM_HANDLER.setLevel(logging.CRITICAL)
 
-FILE_HANDLER = logging.FileHandler('lesson8.1/client.app.log', encoding='utf-8')
+FILE_HANDLER = logging.FileHandler('lesson8/client.app.log', encoding='utf-8')
 FILE_HANDLER.setFormatter(FORMATTER)
 FILE_HANDLER.setLevel(logging.DEBUG)
 

@@ -6,7 +6,7 @@ SERVER_LOG.setLevel(logging.DEBUG)
 FORMATTER = logging.Formatter('%(asctime)s %(levelname)-9s'
                               ' %(module)s %(message)s')
 
-FILE_HANDLER = logging.handlers.TimedRotatingFileHandler('lesson8.1/server.app.log', 'D',
+FILE_HANDLER = logging.handlers.TimedRotatingFileHandler('lesson8/server.app.log', 'D',
                                                          1, 3, encoding='utf-8')
 FILE_HANDLER.setFormatter(FORMATTER)
 FILE_HANDLER.setLevel(logging.DEBUG)
