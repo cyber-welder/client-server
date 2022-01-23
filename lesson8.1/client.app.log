@@ -1,9 +1,0 @@
-2022-01-23 08:42:45,979 DEBUG     client Программа запущена
-2022-01-23 08:42:45,986 DEBUG     messenger Подключен к серверу 127.0.0.1:7777
-2022-01-23 08:42:45,987 DEBUG     decorators Функция <send_presence> вызвана из функции <main> (line 50) с параметрами ('user-1', 'Online')
-2022-01-23 08:42:45,987 DEBUG     decorators Функция <send> вызвана из функции <send_presence> (line 133) с параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50318), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1642898565.987233, 'type': 'status', 'user': {'account_name': 'user-1', 'status': 'Online'}})
-2022-01-23 08:42:45,987 DEBUG     decorators Функция <receive> вызвана из функции <listen> (line 100) с параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50318), raddr=('127.0.0.1', 7777)>,)
-2022-01-23 08:42:47,002 DEBUG     decorators Функция <process_response> вызвана из функции <listen> (line 110) с параметрами ({'code': 200, 'time': 1642898567.0015068, 'alert': ''},)
-2022-01-23 08:42:47,002 DEBUG     decorators Функция <ok_handler> вызвана из функции <process_response> (line 167) с параметрами ({'code': 200, 'time': 1642898567.0015068, 'alert': ''},)
-2022-01-23 08:42:47,002 INFO      messenger Ok (200): no additional message provided
-2022-01-23 08:42:47,003 DEBUG     decorators Функция <receive> вызвана из функции <listen> (line 100) с параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50318), raddr=('127.0.0.1', 7777)>,)
